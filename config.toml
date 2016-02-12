@@ -1,0 +1,15 @@
+baseurl = "http://www.joefkelley.com.s3-website-us-east-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Joe Kelley's Blog"
+copyright = "Joe Kelley"
+
+[Params]
+    intro = true
+    description = "Programming, Math, other Ramblings"
+    headline = "Joe Kelley's Blog"
+    github = "https://github.com/jfkelley"
+    linkedin = "https://linkedin.com/in/joe-kelley-41827746/"
+    stackoverflow = "http://stackoverflow.com/users/854793/joe-k"
+    email = "mailto:joe@joefkelley.com"
+    facebook = "https://facebook.com/jfkelley"
+    reddit = "https://reddit.com/user/OffPiste18"

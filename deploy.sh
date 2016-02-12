@@ -1,0 +1,1 @@
+aws s3 sync --region us-east-1 public/ s3://www.joefkelley.com/
