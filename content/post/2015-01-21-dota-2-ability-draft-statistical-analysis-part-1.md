@@ -145,7 +145,7 @@ Honestly this is probably just a weak spell in general. Its long duration helps 
 
 ## Overrated
 
-[<img src="/assets/wr_vs_pr.png" alt="wr_vs_pr" class="alignnone size-full wp-image-784" />][1]
+[<img src="/wr_vs_pr.png" alt="wr_vs_pr" class="alignnone size-full wp-image-784" />][1]
 
 Above is a simple linear fit of the abilities' win rates vs their pick frequency. Here are the abilities that underperformed based on how often they are picked - i.e., the ones furthest below the fit line.
 
@@ -255,4 +255,4 @@ Bad slows: Concussive Shot (49.59%), Frozen Sigil (49.40%), Poison Touch (47.59%
 
 In the next post, I'm planning on focusing on pairs of abilities - abilities that work well together - but it might be delayed a bit as I wait for more data to be collected to make the analysis statistically significant. But I'm also open to suggestions. What kinds of data would you like to see? Leave a comment or email me.
 
- [1]: /assets/wr_vs_pr.png
+ [1]: /wr_vs_pr.png

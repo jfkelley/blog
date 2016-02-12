@@ -497,4 +497,4 @@ I've personally never implemented any of these last few extensions... the code c
 
 Here's a zip of all of the code used in this post: [alignment.zip][1]
 
- [1]: /assets/alignment.zip
+ [1]: /alignment.zip

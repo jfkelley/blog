@@ -18,7 +18,7 @@ Within my lifetime, I've observed a trend toward faster, shorter, more disposabl
 The far end of the spectrum is already here, and it isn't pretty: look at Twitch chat. Then quickly look away. If you gaze long enough into an abyss, the abyss will gaze back into you.
 
 <center>
-  <a href="/assets/communication_chart.png"><img src="/assets/communication_chart.png" alt="communication_chart" class="alignnone size-full wp-image-759" /></a>
+  <a href="/communication_chart.png"><img src="/communication_chart.png" alt="communication_chart" class="alignnone size-full wp-image-759" /></a>
 </center>
 
 I think we've stumbled on some biological glitch in the way our brains process information and are unintentionally exploiting it. There's some cycle of "see information, understand information, feel good, find next information" that we've managed to distill down into seconds. More and more of the popular websites and apps have extremely short "units" of interaction. It takes only a couple seconds to read a tweet, like an Instagram photo, or look at and upvote something on Reddit. I think part of the reason those clickbait list articles pioneered by Buzzfeed are so successful is that they seem like longer content, but "20 things you won't believe about [blank]" is actually 20 interactions, not one article. "15 cute animals doing [activity]" gives your brain that little reward 15 times, not just once. There's no over-arching analysis or wider point. Have you ever seen a Buzzfeed article like "10 things only 90s kids will get, and what this implies about that generation" ? I doubt it; the latter part would have far too slow of a payoff.

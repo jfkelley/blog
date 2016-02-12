@@ -237,7 +237,7 @@ This has a few major benefits. First of all, note that the line `sum += a.vals[i
 
 But perhaps the real performance win is that the memory access pattern is great. These large arrays are walked in order. In fact, the entirety of the right matrix's values array is iterated through in order over and over. The left matrix is accessed in chunks. Perhaps a picture explains it best:
 
-[<img src="/assets/mmult_memory.png" alt="mmult_memory" class="alignnone size-full wp-image-876" />][2]
+[<img src="/mmult_memory.png" alt="mmult_memory" class="alignnone size-full wp-image-876" />][2]
 
 Basically, this means that caching is super-effective. Lots of cache hits, few misses.
 
@@ -245,11 +245,11 @@ Furthermore, branch prediction does pretty well on the inner-most if-elseif-else
 
 Anyway, I'm happy to say that this implementation actually beats Colt and JBLAS! I ran some really simple benchmarks on my laptop. First, I tested multiplying two random square matrixes of varying size but constant sparsity: 1% non-zero entries:
 
-[<img src="/assets/constant_density.png" alt="constant_density" class="alignnone size-full wp-image-877" />][3]
+[<img src="/constant_density.png" alt="constant_density" class="alignnone size-full wp-image-877" />][3]
 
 I also tested it on a constant size but varying sparsity:
 
-[<img src="/assets/constant_size.png" alt="constant_size" class="alignnone size-full wp-image-878" />][4]
+[<img src="/constant_size.png" alt="constant_size" class="alignnone size-full wp-image-878" />][4]
 
 You can see here that JBLAS actually does not use an implementation that utilizes the sparsity of the matrix, so that has no effect on its running time. Also note that the crossover point is at about 1%, which is lower than I had expected, but still safely above the 0.4% of the actual matrixes in question.
 
@@ -258,8 +258,8 @@ As a future improvement, I'd like to investigate matrix multiplication methods w
 Remember that my actual implementation is available at <https://github.com/jfkelley/hadoop-matrix-mult> so if you want to actually use this, go ahead. And there are also a few more notes in the README there about implementation details.
 
  [1]: http://www.eecs.berkeley.edu/~rcs/research/interactive_latency.html
- [2]: /assets/mmult_memory.png
- [3]: /assets/constant_density.png
- [4]: /assets/constant_size.png
+ [2]: /mmult_memory.png
+ [3]: /constant_density.png
+ [4]: /constant_size.png
  [5]: http://en.wikipedia.org/wiki/Strassen_algorithm
  [6]: http://en.wikipedia.org/wiki/Coppersmith%E2%80%93Winograd_algorithm

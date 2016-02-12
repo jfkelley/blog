@@ -38,7 +38,7 @@ $$</div>
 
 And so on. In fact, it's pretty easy to make one of these diagrams to check for divisibility by any number. Here's one for 11:
 
-[<img src="/assets/magic11.png" alt="" title="magic11" class="alignnone size-full wp-image-450" />][2]
+[<img src="/magic11.png" alt="" title="magic11" class="alignnone size-full wp-image-450" />][2]
 
 Here's a zip file with 2 through 30 (they get pretty hard to read after that):
 
@@ -93,6 +93,6 @@ for(n in 2:30) {
 }
 ~~~
 
- [1]: /assets/magic7.png
- [2]: /assets/magic11.png
- [3]: /assets/magic_diagrams.zip
+ [1]: /magic7.png
+ [2]: /magic11.png
+ [3]: /magic_diagrams.zip
