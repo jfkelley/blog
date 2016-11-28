@@ -1,4 +1,4 @@
-baseurl = "http://www.joefkelley.com.s3-website-us-east-1.amazonaws.com/"
+baseurl = "http://www.joefkelley.com/"
 languageCode = "en-us"
 title = "Joe Kelley's Blog"
 copyright = "Joe Kelley"
