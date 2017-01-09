@@ -93,6 +93,11 @@ hljs.initHighlightingOnLoad();
                                 <i class="fa fa-linkedin"></i>
                             </a>
                         {{ end }}
+			{{ with .Site.Params.medium }}
+			    <a class="button-square button-social hint--top" data-hint="Medium" title="Medium" href="{{ . }}">
+			        <i class="fa fa-medium"></i>
+			    </a>
+			{{ end }}
                         {{ with .Site.Params.gplus }}
                             <a class="button-square button-social hint--top" data-hint="Google+" title="Google+" href="{{ . }}">
                                 <i class="fa fa-google-plus"></i>
