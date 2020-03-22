@@ -2,7 +2,7 @@
 title: Optimal Guess Who
 author: joefkelley
 layout: post
-date: 2020-03-09
+date: 2020-03-22
 url: /906
 categories:
   - Math
@@ -10,7 +10,7 @@ categories:
   
 ---
 
-This week's Riddler on FiveThirtyEight involved determining an optimal strategy for the game Guess Who. The resulting solution was a bit surprising to me since I had always assumed you would want to cut your remaining candidates in half, but that turned out to not be the case. So I'll walk through my derivation of the strategy and give a table that shows what you should do in every situation to play optimally.
+Recently, [The Riddler on FiveThirtyEight](https://fivethirtyeight.com/features/how-good-are-you-at-guess-who/) featured a puzzle that required determining an optimal strategy for the game Guess Who. The resulting solution was a bit surprising to me since I had always assumed you would want to cut your remaining candidates in half, but that turned out to not be the case. So I'll walk through my derivation of the strategy and give a table that shows what you should do in every situation to play optimally.
 
 First, the rules: each player secretly picks one person from a set of 24. You take turns asking yes-or-no questions about the other player's chosen person until you are able to correctly guess the individual. Players maintain a set of possible candidates and eliminate ones that don't match the answers as they go. Some versions of the rules only allow you ask certain types of questions, but I'm going to give a strategy that assumes you can ask any sort of question. Concretely, the easiest system to implement in person is to just order the candidates alphabetically and ask questions like "Is their name alphabetically before \<name\>?".
 
